@@ -1,0 +1,120 @@
+body{
+	background: url(../img/backg.jpg) no-repeat;
+
+}
+.success{
+	font-size: 0.9em;
+}
+.success button{
+	background-color: #10aa0d;
+}
+.name,.school,.success{
+	background-color: #fff;
+	box-shadow: 0 0 5px #5f5f5f;
+}
+.name h2,.school h2,.success h2{
+	background: #10aa0d;
+
+}
+.name h2 span,.school h2 span{
+	background-color: rgba(255,255,255,0.2);
+
+}
+.name li:active,.school li:active{
+	background-color:#10aa0d;
+	color: #fff
+}
+.name li:hover,.school li:hover{
+	background-color:#10aa0d;
+	color: #fff
+}
+.school input{
+	color: #d1d1d1;
+	background: url(../img/coinsg.png) no-repeat;
+	background-position: 100% 111%;
+	background-size: 23%;
+}
+.container{
+	background: #e4e4e4;
+	box-shadow: 0 0 5px #5f5f5f;
+}
+.container .head{
+	background: url(../img/back1g.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.container h1{
+	background: rgba(16,170,13,0.4);
+	color: #fff;
+
+}
+.container .pen{
+	background-color: rgba(16,170,13,1);
+	background-image: url(../img/pen.png);
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+	background-position: center center;
+}
+.chooser div{
+	border: #B6B6B6 solid 1px;
+	background-color: #fff
+
+}
+.chooser input{
+	color: #d4d4d4;
+
+}
+.chooser i{
+	background-image: url(../img/coinsg.png);
+	background-size: 215%;
+}
+.chooser #school i{
+	background-position: 69% 33%;
+}
+#school i.active{
+	background-position:-6% 33%
+}
+.chooser #name i{
+	background-position: -8% 58%;
+}
+#name i.active{
+	background-position: 69% 58%
+}
+.chooser b{
+	color: rgba(0,0,0,0);
+	background-color: #ccc;
+	background-image: url(../img/coinsg.png);
+	background-repeat: no-repeat;
+	background-position: 141% -2%;
+	background-size: 174%;
+}
+.chooser span{
+	color: #dbdbdb;
+
+}
+.chooser .active{
+	border-color: #10aa0d;
+}
+.chooser .active input{
+	color: #000;	
+}
+.chooser .active b{
+	background-color: #10aa0d;
+}
+.sub button{
+	background-color: #cbcbcb;
+	color: #fff;
+}
+.sub a{
+	background-color: #cbcbcb;
+	color: #fff;
+}
+.sub button:active{
+	border:none;
+	background-color: #10aa0d
+}
+.sub .active{
+	background-color: #10aa0d
+}
+@media screen and (min-width:374px){
+	
+}

@@ -1,0 +1,351 @@
+[ 2015-04-03T05:32:44+08:00 ] 119.7.222.80 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000852s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005411s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000147s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2015-04-03T11:57:46+08:00 ] 222.197.176.173 /admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+ERR: 无法加载模块:Index
+
+[ 2015-04-03T11:57:52+08:00 ] 222.197.176.173 /Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+
+[ 2015-04-03T11:57:52+08:00 ] 222.197.176.173 /Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004604s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000177s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000147s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2015-04-03T11:57:52+08:00 ] 222.197.176.173 /Admin/Login/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+
+[ 2015-04-03T11:58:09+08:00 ] 222.197.176.173 /Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `star_user` [ RunTime:0.001023s ]
+SQL: SELECT * FROM `star_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: UPDATE `star_user` SET `login_time`=1428033489,`login_ip`='222.197.176.173' WHERE ( `id` = 1 ) [ RunTime:0.000405s ]
+
+[ 2015-04-03T11:58:09+08:00 ] 222.197.176.173 /Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `star_user` [ RunTime:0.000872s ]
+SQL: SELECT * FROM `star_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006801s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000191s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000158s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000244s ]
+
+[ 2015-04-03T11:58:11+08:00 ] 222.197.176.173 /Admin/School/manage.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `star_user` [ RunTime:0.000966s ]
+SQL: SELECT * FROM `star_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000907s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `star_joiner` LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `star_joiner` ORDER BY school_id LIMIT 0,10   [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000727s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000125s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given /home/www/meeting1/App/Runtime/Cache/Admin/b8fa5691b31a0cea51e93e9a8182c5a8.php 第 27 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /home/www/meeting1/App/Runtime/Cache/Admin/b8fa5691b31a0cea51e93e9a8182c5a8.php 第 27 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008116s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000087s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000148s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2015-04-03T11:58:15+08:00 ] 222.197.176.173 /Admin/Excel/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2015-04-03T11:58:22+08:00 ] 222.197.176.173 /Admin/School/manage.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `star_user` [ RunTime:0.001052s ]
+SQL: SELECT * FROM `star_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000923s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `star_joiner` LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `star_joiner` ORDER BY school_id LIMIT 0,10   [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000768s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given /home/www/meeting1/App/Runtime/Cache/Admin/b8fa5691b31a0cea51e93e9a8182c5a8.php 第 27 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /home/www/meeting1/App/Runtime/Cache/Admin/b8fa5691b31a0cea51e93e9a8182c5a8.php 第 27 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000226s ]
+
+[ 2015-04-03T11:58:24+08:00 ] 222.197.176.173 /Admin/Excel/exports_excel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.001090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `star_joiner` LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT * FROM `star_joiner` ORDER BY id  [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000756s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 20 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `star_school` WHERE ( `id` = 23 ) LIMIT 1   [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: name /home/www/meeting1/App/Lib/Action/Admin/ExcelAction.class.php 第 114 行.
+
+[ 2015-04-03T12:01:07+08:00 ] 119.147.146.195 /Admin/Excel/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-04-03T12:01:07+08:00 ] 119.147.146.195 /Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004615s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000150s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2015-04-03T12:01:07+08:00 ] 119.147.146.195 /Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003338s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000141s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000089s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000207s ]
+
+[ 2015-04-03T12:11:46+08:00 ] 180.153.163.186 /Admin/Excel/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+
+[ 2015-04-03T12:11:46+08:00 ] 180.153.163.186 /Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003394s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000218s ]
+
+[ 2015-04-03T12:11:47+08:00 ] 180.153.214.198 /Admin/Excel/exports_excel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+
+[ 2015-04-03T12:11:47+08:00 ] 180.153.214.198 /Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003350s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000171s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000139s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000090s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000215s ]
+

@@ -1,0 +1,245 @@
+body{
+	background-size: 100% 100%
+}
+form{
+	height: 100%;
+}
+.success p{
+	text-align: center;
+	margin-top: 1em;
+}
+.success div{
+	width: 100px;
+	height: 100px;
+	margin-top: 11%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../img/viewCoin2.png);
+	background-position: 37% 45%;
+	background-size: 504%;
+}
+.success button{
+	margin-top: 0.3em;
+	color: #fff;
+	padding: 10px 43px;
+	line-height: 1.5em;
+	font-size: 0.9em;
+	text-align: center;
+	border-radius: 7px;
+}
+.name,.school,.success{
+	display: none;
+	width: 85%;
+	height: 74%;
+	overflow: scroll;
+	position: absolute;
+	top: 55px;
+	left: 10%;
+	z-index: 3;
+	border-radius: 8px;	
+}
+.name ul,.school ul{
+	height: 62%;
+	overflow-y: scroll;
+}
+.name h2,.school h2,.success h2{
+	border-radius: 8px 8px 0 0;
+	font-size: 1.5em;
+	padding: 25px 0;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+}
+.name h2 span,.school h2 span{
+	display: inline-block;
+	float: left;
+	height: inherit;
+	margin: 0px 0 0 10px;
+	font-size: 0.8em;
+	padding: 6px;
+	border-radius: 16px;
+}
+.name li,.school li{
+	height: 2em;
+	margin-top: 1px;
+	border-top: 1px solid #dedede;
+	font-size: 1.2em;
+	line-height: 2.1em;
+	text-indent: 2em;
+	overflow-x:scroll; 
+}
+
+.name li:active,.school li:active{
+}
+.name li:hover,.school li:hover{
+}
+.name li:first-child,.school li:first-child{
+	margin-top: 2px;
+}
+.name li:last-child,.school li:last-child{
+	border-bottom: 1px solid #dedede;
+}
+.school .search{
+	width: 90%;
+	margin: 2px auto;
+	border:1px solid #d1d1d1;
+	border-radius: 5px;
+	box-shadow: 0px 1px 2px #d1d1d1;
+
+}
+.school input{
+	width: 100%;
+	height: 2.5em;
+	font-size: 1.2em;
+	text-indent: 1.8em;
+}
+.container{
+	width: 85%;
+	height: 74%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 55px;
+	border-radius: 7px;
+}
+.container .head{
+	height: 76%;
+	width: 100%;
+	border-radius: 7px 7px 0 0
+}
+.container h1{
+	width: 85%;
+	position: relative;
+	top: 20px;
+	padding: 0px 10px;
+	margin-left: 5%;
+	border-radius: 2em;
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: normal;
+	line-height: 1.9em;
+}
+.container .pen{
+	width: 3em;
+	height: 3em;
+	margin-left: -1.5em;
+	margin-top: -0.5em;
+	display: inline-block;
+	float: left;
+	border-radius: 2.5em;
+}
+.chooser div{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2% 0;
+	border-radius: 7px;
+}
+.chooser{
+	height: 21%;
+	margin-top: 3%;
+}
+.chooser input{
+	width: 60%;
+	padding-left: 0.5em;
+	font-size: 0.8em;
+}
+.chooser i{
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	width: 1.3em;
+	height: 1.3em;
+}
+.chooser b{
+	display: inline-block;
+	width: 9%;
+	margin-top: -6px;
+	margin-right: -2px;
+	border-radius: 5px;
+	float: right;
+	padding: 2% 0;
+	font-size: 1.1em;
+}
+.chooser span{
+	display: none;
+	font-size: 0.75em;
+	margin-top: 0.3em;
+	margin-right: 0.3em;
+}
+.chooser #name{
+	margin-top: 3%;
+}
+.sub{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	top: 75px;
+	border-radius: 2em;
+	text-align: center;
+}
+.sub button{
+	width: 35%;
+	height: 100%;
+	padding: 7px 0;
+	border-radius: 2em;
+	font-size: 1.2em;
+}
+.sub a{
+	display: none;
+	width: 100%;
+	height: 100%;
+	padding: 7px 0;
+	border-radius: 2em;
+	font-size: 1.2em;
+}
+.sub #osub{
+	margin-left: 16%;
+}
+@media screen and  (max-height: 480px){
+
+.container {
+	width: 75%;
+	height: 74%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 30px;
+}
+.container h1{
+	width: 80%;
+	top: 13px;
+	padding: 0px 10px;
+	margin-left: 10%;
+	font-size: 0.75em;
+	line-height: 2em;
+}
+.container .pen {
+	width: 2.5em;
+	height: 2.5em;
+	margin-left: -2.1em;
+	margin-top: -0.2em;
+}
+.container .head{
+	height: 70%;
+}
+.chooser div{
+	font-size: 0.8em
+}
+.sub{
+	width: 75%;
+	top: 39px;
+}
+.sub input{
+	font-size: 0.9em;
+}
+}
+@media screen and  (min-width: 374px){
+.container h1{
+	font-size: 1em
+}
+.school input{
+		background-position: 100% 106%;
+}
+}

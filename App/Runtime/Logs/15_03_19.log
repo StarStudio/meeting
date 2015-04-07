@@ -1,0 +1,157 @@
+[ 2015-03-19T07:57:28+08:00 ] 117.136.63.80 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000843s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005214s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000138s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000217s ]
+
+[ 2015-03-19T07:57:49+08:00 ] 117.136.63.80 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000722s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%h%' )  [ RunTime:0.000435s ]
+
+[ 2015-03-19T07:57:49+08:00 ] 117.136.63.80 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000726s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%h% %b%' )  [ RunTime:0.000468s ]
+
+[ 2015-03-19T07:57:50+08:00 ] 117.136.63.80 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000812s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%h% %b% %d%' )  [ RunTime:0.000426s ]
+
+[ 2015-03-19T07:57:50+08:00 ] 117.136.63.80 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000143s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000722s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%h% %b% %d% %l%' )  [ RunTime:0.000404s ]
+
+[ 2015-03-19T07:57:50+08:00 ] 117.136.63.80 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000738s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%h% %b% %d% %l% %d%' )  [ RunTime:0.000414s ]
+
+[ 2015-03-19T07:57:51+08:00 ] 117.136.63.80 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000802s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%h% %b% %d% %l% %d% %x%' )  [ RunTime:0.000467s ]
+
+[ 2015-03-19T07:57:51+08:00 ] 117.136.63.80 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000698s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%h%b%d%l%d%x%' )  [ RunTime:0.000392s ]
+
+[ 2015-03-19T07:57:51+08:00 ] 117.136.63.80 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000727s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%华%北%电%力%大%学%' )  [ RunTime:0.000431s ]
+
+[ 2015-03-19T07:57:51+08:00 ] 117.136.63.80 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000716s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%华%北%电%力%大%学%' )  [ RunTime:0.000190s ]
+
+[ 2015-03-19T07:57:55+08:00 ] 117.136.63.80 /Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.009956s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '华北电力大学' ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000891s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 33 )  [ RunTime:0.000441s ]
+
+[ 2015-03-19T07:57:58+08:00 ] 117.136.63.80 /Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000949s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '张新娟' ) AND ( `school_id` = 33 )  [ RunTime:0.000503s ]
+
+[ 2015-03-19T07:58:00+08:00 ] 117.136.63.80 /Index/Index/other.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000854s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '华北电力大学' ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000830s ]
+SQL: UPDATE `star_joiner` SET `time`=time+1 WHERE ( `joiner` = '张新娟' ) AND ( `school_id` = 33 ) [ RunTime:0.000906s ]
+SQL: UPDATE `star_joiner` SET `login_time`=1426723080 WHERE ( `joiner` = '张新娟' ) AND ( `school_id` = 33 ) [ RunTime:0.000653s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '张新娟' ) AND ( `school_id` = 33 ) LIMIT 1   [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004805s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000188s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000148s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000217s ]
+

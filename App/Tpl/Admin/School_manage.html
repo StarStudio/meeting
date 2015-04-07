@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<css file="__PUBLIC__/Css/public.css" />
+</head>
+<body>
+<form method="post" action="{:U('Admin/School/search')}">
+	<input type="text" name="key" placeholder="请输入与会人员姓名" />
+	<input type="submit" />
+</form>
+<table class="table">
+	<tr>
+		<th>ID</th>
+		<th>与会人员姓名</th>
+		<th>单位</th>
+		<th>是否签到</th>
+		<th>签到时间</th>
+		<if condition="$lock eq '2'">
+		<else />
+		<th colspan="2">操作</th>
+		</if>
+	</tr>
+	<foreach name="name" item="v">
+	<tr>
+		<td>{$v.id}</td>
+		<td>{$v.username}</td>
+		<td>{$v.school_id}</td>
+		<td>{$v.time}</td>
+		<td>{$v['login_time'] | date="Y-m-d H:i:s" , ###}</td>
+		<if condition="$lock eq '2'">
+		<else />
+		<td><a href="{:U('Admin/School/edit', array('id' => $v['id']))}">编辑</a></td>
+		<td><a href="{:U('Admin/School/delete', array('id' => $v['id']))}">删除</a></td>
+		</if>
+	</tr>
+	</foreach>
+	<tr>
+		<td colspan="8" align="center">{$page}</td>
+	</tr>
+</table>
+<a href="{:U('Admin/Excel/exports_excel')}">输出为Excel表格</a>
+</body>
+</html>

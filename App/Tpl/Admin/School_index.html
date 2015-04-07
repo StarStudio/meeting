@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="__PUBLIC__/Css/login.css" />
+</head>
+<body>
+	<div class="login">
+	<if condition="$type eq 'index'">
+		<form action="{:U('Admin/School/add')}" method="post" id="login">
+		<table border="1" width="100%">
+			<tr>
+				<th>学校名称:</th>
+				<td>
+					<input style="width:490px;" type="text" name="school"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;"> <input type="submit" class="submit" value="提交"/></td>
+			</tr>
+		</table>
+		</form>
+	<elseif condition="$type eq 'edit'" />
+		<form action="{:U('Admin/School/edit_save')}" method="post" id="login">
+		<table border="1" width="100%">
+			<input type="hidden" name="id" value="{$joiner['id']}">
+			<tr>
+				<th>学校名称:</th>
+				<td>
+					<select name="school">
+					<foreach name="school" item="v">
+						<if condition="$joiner['school_id'] eq $v['school']">
+							<option selected="selected" value="{$v.school}">{$v.school}</option>
+						<else />
+							<option value="{$v.school}">{$v.school}</option>
+						</if>
+					</foreach>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>参与者姓名:</th>
+				<td>
+					<input style="width:490px;" type="text" name="joiner" value="{$joiner['username']}" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;"> <input type="submit" class="submit" value="提交"/></td>
+			</tr>
+		</table>
+		</form>
+	<elseif condition="$type eq 'joiner'" />
+		<form action="{:U('Admin/School/join')}" method="post" id="login">
+		<table border="1" width="100%">
+			<tr>
+				<th>学校名称:</th>
+				<td>
+					<select name="school">
+					<foreach name="school" item="v">
+						<option value="{$v.school}">{$v.school}</option>
+					</foreach>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>参与者姓名:</th>
+				<td>
+					<input style="width:490px;" type="text" name="joiner"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;"> <input type="submit" class="submit" value="提交"/></td>
+			</tr>
+		</table>
+		</form>
+	</if>
+	</div>
+</body>
+</html>

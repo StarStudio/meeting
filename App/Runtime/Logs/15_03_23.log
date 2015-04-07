@@ -1,0 +1,768 @@
+[ 2015-03-23T11:11:14+08:00 ] 125.71.229.6 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000846s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000194s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2015-03-23T11:11:32+08:00 ] 112.65.193.16 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000853s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005994s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000105s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2015-03-23T11:11:32+08:00 ] 125.71.229.6 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000772s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005807s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000107s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2015-03-23T11:11:36+08:00 ] 124.161.23.11 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000809s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005908s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000200s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000113s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2015-03-23T11:11:36+08:00 ] 124.161.23.11 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000751s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000152s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005066s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2015-03-23T11:11:36+08:00 ] 117.175.88.49 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000735s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000134s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005092s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000208s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2015-03-23T11:11:36+08:00 ] 124.161.23.11 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000678s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004762s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000203s ]
+
+[ 2015-03-23T11:11:37+08:00 ] 223.85.132.34 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000894s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005075s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000090s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000213s ]
+
+[ 2015-03-23T11:11:37+08:00 ] 117.175.88.50 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000706s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000166s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011086s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000087s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000226s ]
+
+[ 2015-03-23T11:11:47+08:00 ] 101.226.33.222 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000813s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000145s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000153s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2015-03-23T11:15:18+08:00 ] 223.85.132.35 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000796s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000185s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000213s ]
+
+[ 2015-03-23T11:15:18+08:00 ] 125.71.229.6 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000791s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005831s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000190s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000223s ]
+
+[ 2015-03-23T11:15:18+08:00 ] 175.155.112.40 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000801s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000140s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000214s ]
+
+[ 2015-03-23T11:15:22+08:00 ] 223.85.132.34 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000856s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000136s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000214s ]
+
+[ 2015-03-23T11:15:22+08:00 ] 125.71.229.6 /Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000749s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '北京科技大学' ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000834s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.000694s ]
+
+[ 2015-03-23T11:15:23+08:00 ] 124.161.23.60 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000799s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000192s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2015-03-23T11:15:28+08:00 ] 125.71.229.6 /Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000985s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '张颖' ) AND ( `school_id` = 5 )  [ RunTime:0.000553s ]
+
+[ 2015-03-23T11:16:25+08:00 ] 117.175.88.49 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000834s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005035s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000110s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2015-03-23T11:16:25+08:00 ] 125.71.229.6 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000774s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005903s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000216s ]
+
+[ 2015-03-23T11:16:25+08:00 ] 175.155.112.40 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000729s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009550s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000211s ]
+
+[ 2015-03-23T11:16:29+08:00 ] 125.71.229.6 /Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000831s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '大连海事大学' ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000865s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 13 )  [ RunTime:0.000422s ]
+
+[ 2015-03-23T11:16:32+08:00 ] 125.71.229.6 /Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.001007s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '董国松' ) AND ( `school_id` = 13 )  [ RunTime:0.000498s ]
+
+[ 2015-03-23T11:16:37+08:00 ] 125.71.229.6 /Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000871s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子科技大学' ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000953s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 15 )  [ RunTime:0.000474s ]
+
+[ 2015-03-23T11:16:41+08:00 ] 125.71.229.6 /Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.001098s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '李阳' ) AND ( `school_id` = 15 )  [ RunTime:0.000505s ]
+
+[ 2015-03-23T11:25:03+08:00 ] 101.226.65.102 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000834s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005148s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000197s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000209s ]
+
+[ 2015-03-23T14:59:59+08:00 ] 119.4.252.217 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000861s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016773s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003414s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2015-03-23T14:59:59+08:00 ] 124.161.23.61 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000749s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025416s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000195s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000214s ]
+
+[ 2015-03-23T15:00:00+08:00 ] 101.226.69.108 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000777s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004984s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000089s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000134s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000204s ]
+
+[ 2015-03-23T15:00:02+08:00 ] 182.131.12.36 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000821s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005984s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000194s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2015-03-23T15:00:23+08:00 ] 119.4.252.217 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002233s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+
+[ 2015-03-23T15:00:23+08:00 ] 119.4.252.217 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000854s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%负%担%' )  [ RunTime:0.000444s ]
+
+[ 2015-03-23T15:00:23+08:00 ] 119.4.252.217 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000720s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%负%' )  [ RunTime:0.000417s ]
+
+[ 2015-03-23T15:00:25+08:00 ] 119.4.252.217 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000843s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%复%旦%' )  [ RunTime:0.000441s ]
+
+[ 2015-03-23T15:00:26+08:00 ] 119.4.252.217 /Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000755s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '复旦大学' ) LIMIT 1   [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000930s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 23 )  [ RunTime:0.000450s ]
+
+[ 2015-03-23T15:00:29+08:00 ] 119.4.252.217 /Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000169s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000979s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '陈殷华' ) AND ( `school_id` = 23 )  [ RunTime:0.000509s ]
+
+[ 2015-03-23T15:37:42+08:00 ] 14.17.29.92 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000831s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000199s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006099s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000195s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2015-03-23T15:37:42+08:00 ] 222.197.176.164 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+
+[ 2015-03-23T15:37:42+08:00 ] 222.197.176.164 /Index/Index/other.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000204s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000793s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '北京航空航天大学' ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000937s ]
+SQL: UPDATE `star_joiner` SET `time`=time+1 WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 ) [ RunTime:0.001154s ]
+SQL: UPDATE `star_joiner` SET `login_time`=1427096262 WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 ) [ RunTime:0.000586s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 ) LIMIT 1   [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005616s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000158s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2015-03-23T15:37:54+08:00 ] 223.104.9.189 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000839s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006100s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000154s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2015-03-23T15:38:04+08:00 ] 223.104.9.189 /Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000835s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '北京航空航天大学' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000924s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 2 )  [ RunTime:0.000487s ]
+
+[ 2015-03-23T15:38:06+08:00 ] 223.104.9.189 /Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.001022s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 )  [ RunTime:0.000487s ]
+
+[ 2015-03-23T15:38:11+08:00 ] 223.104.9.189 /Index/Index/other.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000866s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '北京航空航天大学' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000921s ]
+SQL: UPDATE `star_joiner` SET `time`=time+1 WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 ) [ RunTime:0.001066s ]
+SQL: UPDATE `star_joiner` SET `login_time`=1427096291 WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 ) [ RunTime:0.000643s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 ) LIMIT 1   [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000139s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000107s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000214s ]
+
+[ 2015-03-23T15:40:41+08:00 ] 223.104.9.189 /Index/Index/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000246s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000892s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` LIKE '%电%子%' )  [ RunTime:0.000667s ]
+
+[ 2015-03-23T15:40:43+08:00 ] 223.104.9.189 /Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000881s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子科技大学' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000918s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 15 )  [ RunTime:0.000496s ]
+
+[ 2015-03-23T15:44:44+08:00 ] 101.226.33.222 /Index/Index/other.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+
+[ 2015-03-23T15:44:44+08:00 ] 101.226.33.222 /Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000859s ]
+SQL: SELECT * FROM `star_school` ORDER BY convert(school using gb2312) ASC  [ RunTime:0.000219s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006053s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000201s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000159s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000153s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2015-03-23T15:45:30+08:00 ] 223.104.9.189 /Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.001034s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '申小蓉' ) AND ( `school_id` = 15 )  [ RunTime:0.000557s ]
+
+[ 2015-03-23T15:45:32+08:00 ] 223.104.9.189 /Index/Index/other.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.000808s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '北京航空航天大学' ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.000912s ]
+SQL: UPDATE `star_joiner` SET `time`=time+1 WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 ) [ RunTime:0.000974s ]
+SQL: UPDATE `star_joiner` SET `login_time`=1427096732 WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 ) [ RunTime:0.000614s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `joiner` = '武立勋' ) AND ( `school_id` = 2 ) LIMIT 1   [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000191s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000160s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000233s ]
+

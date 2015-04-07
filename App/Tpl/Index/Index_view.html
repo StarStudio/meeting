@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<title>网络文化建设工作例会签到系统</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/view.css">
+	<script type="text/javascript">
+	var rootURL = '__ROOT__';
+
+	</script>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/view.js"></script>
+</head>
+<body>
+<div class="" id="control">
+	<div class="main">
+	<h1>学生工作例会签到系统</h1>
+	<div class="num"><span>{$percent}</span><i>%</i><b>已签到</b></div>
+	<div class="people"><span>{$doneCount}/{$all}</span>人已完成签到</div>
+	</div>
+	<div class="time">最近更新<span></span></div>
+	<ul class="view">
+		<li class="viewAlr">查看已签到<span><i class="alreadyI">{$doneCount}</i>人</span></li>
+		<li class="viewDon">查看未签到<span><i class="donotI">{$undoneCount}</i>人</span></li>
+		<li class="viewOther">查看代签<span><i class="otherI">{$otherCount}</i>人</span></li>
+		<li class="viewLate">查看迟到<span><i class="lateI">{$lateCount}</i>人</span></li>
+	</ul>
+	<div class="hid" id="alreadyDiv">
+	<h2>已签到<span><i class="alreadyI">{$doneCount}</i><i>人</i></span></h2>
+	<ul>
+	<foreach name="done" item="v">
+		<li>
+			<p>{$v.username}</p>
+			<p class="smallp"><span class="school">{$v.school_id}</span>
+			<span class="signtime">{$v['login_time'] | date="Y-m-d H:i:s", ###} </span></p>
+		</li>
+	</foreach>
+	</ul>
+	</div>
+	<div class="hid" id="donotDiv">
+	<h2>未签到<span><i class="donotI">{$undoneCount}</i><i>人</i></span></h2>
+	<ul>
+	<foreach name="undone" item="v">
+		<li>
+			<p>{$v.username}</p>
+			<p class="smallp"><span class="school">{$v.school_id}</span>
+			<span class="signtime">{$v['login_time'] | date="Y-m-d H:i:s", ###} </span></p>
+		</li>
+	</foreach>
+	</ul>
+	</div>
+	<div class="hid" id="otherDiv">
+	<h2>代签<span><i class="donotI">{$otherCount}</i><i>人</i></span></h2>
+	<ul>
+	<foreach name="other" item="v">
+		<li>
+			<p>{$v.username}</p>
+			<p class="smallp"><span class="school">{$v.school_id}</span>
+			<span class="signtime">{$v['login_time'] | date="Y-m-d H:i:s", ###} </span></p>
+		</li>
+	</foreach>
+	</ul>
+	</div>
+	<div class="hid" id="lateDiv">
+	<h2>迟到<span><i class="donotI">{$lateCount}</i><i>人</i></span></h2>
+	<ul>
+	<foreach name="late" item="v">
+		<li>
+			<p>{$v.username}</p>
+			<p class="smallp"><span class="school">{$v.school_id}</span>
+			<span class="signtime">{$v['login_time'] | date="Y-m-d H:i:s", ###} </span></p>
+		</li>
+	</foreach>
+	</ul>
+	</div>
+</div>
+</body>
+</html>

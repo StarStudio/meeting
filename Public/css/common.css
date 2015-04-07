@@ -1,0 +1,35 @@
+ @charset "utf-8";
+ body{
+	height: 100%;
+}
+html{
+	height: 100%
+}
+*{
+	margin: 0;
+	padding: 0;
+	border:none;
+	text-decoration: none;
+	background: none;
+	font-family: "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*:focus {outline: none;}
+li{
+	list-style: none;
+}
+input{
+	outline:none;
+	background: none;
+	border:none;
+}
+a:focus,input:focus{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+a:focus,input:focus{ -webkit-user-modify:read-write-plaintext-only; }
+input[type="button"], input[type="submit"], input[type="reset"] {
+background: none;
+-webkit-appearance: none;
+
+}
+button[type="submit"] {
+background: none;
+-webkit-appearance: none;
+}
