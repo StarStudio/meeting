@@ -1,0 +1,270 @@
+body{
+	background: url(../img/back.jpg) no-repeat;
+	background-size: 100% 100%
+}
+form{
+	height: 100%;
+}
+.name,.school{
+	display: none;
+	width: 85%;
+	height: 74%;
+	overflow: hidden;
+	position: absolute;
+	top: 55px;
+	left: 10%;
+	z-index: 3;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 0 5px #5f5f5f;	
+}
+.name ul,.school ul{
+	height: 62%;
+	overflow-y: scroll;
+}
+.name h2,.school h2{
+	background: #42a5f5;
+	border-radius: 8px 8px 0 0;
+	font-size: 1.5em;
+	padding: 25px 0;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+}
+.name h2 span,.school h2 span{
+	display: inline-block;
+	float: left;
+	background-color: rgba(255,255,255,0.2);
+	height: inherit;
+	margin: 0px 0 0 10px;
+	font-size: 0.8em;
+	padding: 6px;
+	border-radius: 16px;
+}
+.name li,.school li{
+	height: 2em;
+	margin-top: 1px;
+	border-top: 1px solid #dedede;
+	font-size: 1.2em;
+	line-height: 2.1em;
+	text-indent: 2em;
+}
+
+.name li:active,.school li:active{
+	background-color:#42a5f5;
+	color: #fff
+}
+.name li:hover,.school li:hover{
+	background-color:#42a5f5;
+	color: #fff
+}
+.name li:first-child,.school li:first-child{
+	margin-top: 2px;
+}
+.name li:last-child,.school li:last-child{
+	border-bottom: 1px solid #dedede;
+}
+.school .search{
+	width: 90%;
+	margin: 2px auto;
+	border:1px solid #d1d1d1;
+	border-radius: 5px;
+	box-shadow: 0px 1px 2px #d1d1d1;
+
+}
+.school input{
+	width: 100%;
+	height: 2.5em;
+	font-size: 1.2em;
+	color: #d1d1d1;
+	text-indent: 1.8em;
+	background: url(../img/coins.png) no-repeat;
+	background-position: 100% 111%;
+	background-size: 23%;
+}
+.container{
+	width: 85%;
+	height: 74%;
+	margin-right: auto;
+	margin-left: auto;
+	background: #e4e4e4;
+	position: relative;
+	top: 55px;
+	border-radius: 7px;
+	box-shadow: 0 0 5px #5f5f5f;
+}
+.container .head{
+	height: 76%;
+	width: 100%;
+	background: url(../img/back1.jpg) no-repeat;
+	background-size: 100% 100%;
+	border-radius: 7px 7px 0 0
+}
+.container h1{
+	width: 85%;
+position: relative;
+top: 20px;
+padding: 0px 10px;
+margin-left: 5%;
+border-radius: 2em;
+text-align: center;
+background: rgba(65,164,245,0.4);
+color: #fff;
+font-size: 0.9em;
+font-weight: normal;
+line-height: 1.9em;
+}
+.container .pen{
+	width: 5em;
+	height: 5em;
+	margin-left: -1.5em;
+	margin-top: -0.5em;
+	display: inline-block;
+	float: left;
+	background-color: rgba(65,164,245,1);
+	background-image: url(../img/pen.png);
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+	background-position: center center;
+	border-radius: 2.5em;
+}
+.chooser div{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2% 0;
+	border: #B6B6B6 solid 1px;
+	border-radius: 7px;
+	background-color: #fff
+}
+.chooser{
+	height: 21%;
+	margin-top: 3%;
+}
+.chooser input{
+	width: 26%;
+	padding-left: 0.5em;
+	font-size: 0.8em;
+	color: #d4d4d4;
+}
+.chooser i{
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	width: 1.3em;
+	height: 1.3em;
+	background-image: url(../img/coins.png);
+	background-size: 215%;
+}
+.chooser #school i{
+	background-position: 69% 33%;
+}
+#school i.active{
+	background-position:-6% 33%
+}
+.chooser #name i{
+	background-position: -8% 58%;
+}
+#name i.active{
+	background-position: 69% 58%
+}
+.chooser b{
+	display: inline-block;
+	width: 9%;
+	margin-top: -6px;
+	margin-right: -2px;
+	border-radius: 5px;
+	float: right;
+	padding: 2% 0;
+	font-size: 1.1em;
+	color: rgba(0,0,0,0);
+	background-color: #ccc;
+	background-image: url(../img/coins.png);
+	background-repeat: no-repeat;
+	background-position: 141% -2%;
+	background-size: 174%;
+}
+.chooser span{
+	display: none;
+	font-size: 0.75em;
+	color: #dbdbdb;
+	margin-top: 0.3em;
+	margin-right: 0.3em;
+}
+.chooser #name{
+	margin-top: 3%;
+}
+.chooser .active{
+	border-color: #42a5f5;
+}
+.chooser .active input{
+	color: #000;	
+}
+.chooser .active b{
+	background-color: #42a5f5;
+}
+.sub{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	top: 75px;
+	border-radius: 2em;
+	text-align: center;
+}
+.sub button{
+	width: 100%;
+	height: 100%;
+	padding: 10px 0;
+	background-color: #cbcbcb;
+	border-radius: 2em;
+	color: #fff;
+	font-size: 1.2em;
+}
+.sub button:active{
+	border:none;
+	background-color: #3b94dc
+}
+@media screen and  (max-height: 480px){
+
+.container {
+	width: 75%;
+	height: 74%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 30px;
+}
+.container h1{
+	width: 80%;
+	top: 13px;
+	padding: 0px 10px;
+	margin-left: 10%;
+	font-size: 0.75em;
+	line-height: 1.5em;
+}
+.container .pen {
+	width: 3.5em;
+	height: 3.5em;
+	margin-left: -2.1em;
+	margin-top: -0.2em;
+}
+.container .head{
+	height: 70%;
+}
+.chooser div{
+	font-size: 0.8em
+}
+.sub{
+	width: 75%;
+	top: 39px;
+}
+.sub input{
+	font-size: 0.9em;
+}
+}
+@media screen and  (min-width: 374px){
+.container h1{
+	font-size: 1em
+}
+}

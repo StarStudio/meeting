@@ -1,0 +1,5 @@
+ThinkPHP/
+
+App/Conf/config.php
+
+App/Temp*

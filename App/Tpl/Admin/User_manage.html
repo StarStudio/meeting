@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<css file="__PUBLIC__/Css/public.css" />
+</head>
+<body>
+<table class="table">
+	<tr>
+		<th>ID</th>
+		<th>用户名</th>
+		<th>操作</th>
+	</tr>
+	<foreach name="user" item="v">
+	<tr>
+		<td>{$v.id}</td>
+		<td>{$v.username}</td>
+		<td><a href="{:U('Admin/User/delete', array('id' => $v['id']))}">删除</a></td>
+	</tr>
+	</foreach>
+	<tr>
+		<td colspan="6" align="center">{$page}</td>
+	</tr>
+</table>
+</body>
+</html>
