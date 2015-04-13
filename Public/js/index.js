@@ -2,7 +2,6 @@
 function clickSchool () {
 	var schoolButton=document.getElementById('school');
 	var schoolDiv=document.getElementById('sc');
-
 	schoolButton.onclick =function () {
 		this.getElementsByTagName('input')[0].disabled="disabled"
 		if (!this.class){
@@ -49,7 +48,8 @@ function chooseLi (div,button) {
 	var backN=document.getElementById('na').getElementsByTagName('span')[0];
 	var subButton =document.getElementById('sub');
 	var osubButton=document.getElementById('osub');
-	for (var i = 0; i < oLi.length; i++) {
+	var mylength=oLi.length
+	for (var i = 0; i < mylength; i++) {
 		oLi[i].onclick=function () {
 			var that=this;
 			this.parentNode.parentNode.style.display="none";
@@ -140,16 +140,14 @@ function chooseName (choosenLi,subButton,osubButton) {
 				osubButton.style.display="none";//取消原签到按钮的显示
 			};
 	});
-				//从之前的请求传参数过来
 }
 //出弹框后返回的函数
 function goBack (div,button) {
 	div.style.display="none";
 	var over=document.getElementById('over')
 	document.getElementsByTagName('body')[0].removeChild(over);
-
-		button.className="active";
-		button.getElementsByTagName('i')[0].className="active";
+	button.className="active";
+	button.getElementsByTagName('i')[0].className="active";
 		// if () {
 
 		// }else{

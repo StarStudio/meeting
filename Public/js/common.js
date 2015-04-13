@@ -1,4 +1,3 @@
-
 function addLoadEvent(func) {
   var oldonload = window.onload;
   if (typeof window.onload != 'function') {
@@ -26,3 +25,21 @@ function ajax (url,message,fun,argument) {
     };
   }
 } 
+function addEvent(element,type,fun) {
+	if (element.addEventListener){
+		element.addEventListener(type,fun,false);
+	}else if(element.attachEvent){
+		element.attachEvent("on"+type,fun);
+	}else{
+		element["on"+type]=fun;
+	}
+}
+function removeEvent(element,type,fun) {
+	if (element.removeEventListener){
+		element.removeeventListener(type,fun,false);
+	}else if(element.detachEvent){
+		element.detachEvent("on"+type,fun);
+	}else{
+		element["on"+type]=null;
+	}
+}
