@@ -2,31 +2,18 @@
 function clickSchool () {
 	var schoolButton=document.getElementById('school');
 	var schoolDiv=document.getElementById('sc');
-	schoolButton.onclick =function () {
+	schoolButton.onclick=function () {
 		this.getElementsByTagName('input')[0].disabled="disabled"
-		if (!this.class){
-			this.className='active';
-		};
-		if (!this.getElementsByTagName('i')[0].class){
-			this.getElementsByTagName('i')[0].className="active"
-		};
 		view (schoolDiv,schoolButton);
-	};
+	}
 }
 //点击选择姓名按钮的函数
 function clickName () {
 	var nameButton=document.getElementById('name');
 	var nameDiv=document.getElementById('na');
 	var schoolDiv=document.getElementById('sc');
-	
 	nameButton.onclick =function () {
 		this.getElementsByTagName('input')[0].disabled="disabled;"
-		if (!this.class){
-			this.className="active"
-		};
-		if (!this.getElementsByTagName('i')[0].class){
-			this.getElementsByTagName('i')[0].className="active"
-		};
 		view(nameDiv,nameButton);
 	}
 };
@@ -48,7 +35,7 @@ function chooseLi (div,button) {
 	var backN=document.getElementById('na').getElementsByTagName('span')[0];
 	var subButton =document.getElementById('sub');
 	var osubButton=document.getElementById('osub');
-	var mylength=oLi.length
+	var mylength=oLi.length;
 	for (var i = 0; i < mylength; i++) {
 		oLi[i].onclick=function () {
 			var that=this;
@@ -78,6 +65,15 @@ function chooseLi (div,button) {
 	}
 }
 function chooseSchool (choosenLi,subButton,osubButton) {
+	//改变选框的样式
+	var schoolButton=document.getElementById('school');
+	if (!schoolButton.class){
+		schoolButton.className="active"
+	};
+	if (!schoolButton.getElementsByTagName('i')[0].class){
+		schoolButton.getElementsByTagName('i')[0].className="active"
+	};
+
 	//初始化选择姓名的栏目
 	document.getElementById('name').getElementsByTagName('input')[0].value="请选择姓名";
 	document.getElementById('name').getElementsByTagName('span')[0].style.display="none";
@@ -109,6 +105,15 @@ function creatSignButton(string,clickfun) {
 }
 
 function chooseName (choosenLi,subButton,osubButton) {
+	//对选框样式的处理
+	var nameButton=document.getElementById('name');
+	if (!nameButton.class){
+		nameButton.className="active"
+	};
+	if (!nameButton.getElementsByTagName('i')[0].class){
+		nameButton.getElementsByTagName('i')[0].className="active"
+	};
+	//对按钮样式的处理
 	subButton.className="active";
 	subButton.removeAttribute('disabled');
 	osubButton.className="active";
@@ -146,14 +151,7 @@ function goBack (div,button) {
 	div.style.display="none";
 	var over=document.getElementById('over')
 	document.getElementsByTagName('body')[0].removeChild(over);
-	button.className="active";
-	button.getElementsByTagName('i')[0].className="active";
-		// if () {
 
-		// }else{
-		// button.className="";
-		// button.getElementsByTagName('i')[0].className="";
-		// };
 }
 //选择学校之后加载出姓名
 function loadName (data) {
@@ -163,9 +161,7 @@ function loadName (data) {
 	if (data) {
 		for (var i = 0; i < data.length; i++) {
 		var lis=document.createElement('li');
-
 		var time=data[i].time;
-		
 		var sign=document.createElement('span');
 		sign.style.color="#d5d5d5";
 		sign.style.fontSize="0.9em";
@@ -236,7 +232,6 @@ function subFun (self) {
 	document.getElementsByTagName('body')[0].appendChild(over);	
 	var sginDiv=document.getElementsByClassName('success')[0];
 	sginDiv.style.display="block";
-
 	document.getElementById('sub').style.display="none";
 	document.getElementById('osub').style.display="none";
 	creatSignButton("您已成功签到");

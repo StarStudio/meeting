@@ -1,0 +1,1628 @@
+[ 2015-04-13T11:21:49+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002747s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.035062s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.001660s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001726s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001419s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007026s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2015-04-13T11:21:52+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002757s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004382s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '物理电子学院' ) LIMIT 1   [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.070575s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.001003s ]
+
+[ 2015-04-13T11:21:53+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004642s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '陈重阳' ) AND ( `school_id` = 5 )  [ RunTime:0.000653s ]
+
+[ 2015-04-13T11:21:55+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001559s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004394s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '物理电子学院' ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005140s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.000488s ]
+
+[ 2015-04-13T11:21:56+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004325s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '陈重阳' ) AND ( `school_id` = 5 )  [ RunTime:0.000567s ]
+
+[ 2015-04-13T11:22:03+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003885s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021414s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001498s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001463s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006603s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002125s ]
+
+[ 2015-04-13T11:22:05+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004617s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004600s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000563s ]
+
+[ 2015-04-13T11:22:07+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003971s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '田虎' ) AND ( `school_id` = 1 )  [ RunTime:0.000728s ]
+
+[ 2015-04-13T11:22:10+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004694s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '微电子与固体电子学院' ) LIMIT 1   [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004650s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 4 )  [ RunTime:0.001049s ]
+
+[ 2015-04-13T11:22:12+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004017s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '文译' ) AND ( `school_id` = 4 )  [ RunTime:0.001526s ]
+
+[ 2015-04-13T11:22:24+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004028s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002936s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002200s ]
+
+[ 2015-04-13T11:22:27+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003825s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '通信与信息工程学院' ) LIMIT 1   [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005239s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 2 )  [ RunTime:0.000579s ]
+
+[ 2015-04-13T11:22:29+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004344s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '物理电子学院' ) LIMIT 1   [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005178s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.001022s ]
+
+[ 2015-04-13T11:22:30+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003839s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '光电信息学院' ) LIMIT 1   [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003712s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 6 )  [ RunTime:0.000590s ]
+
+[ 2015-04-13T11:22:31+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002356s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004985s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '光电信息学院' ) LIMIT 1   [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003934s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 6 )  [ RunTime:0.000474s ]
+
+[ 2015-04-13T11:23:06+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003429s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004111s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024711s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002310s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002175s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009827s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003088s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003254s ]
+
+[ 2015-04-13T11:23:25+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002825s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003883s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022679s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001944s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002921s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003097s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003257s ]
+
+[ 2015-04-13T11:23:27+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003714s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003953s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.001098s ]
+
+[ 2015-04-13T11:23:29+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004466s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '光电信息学院' ) LIMIT 1   [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003892s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 6 )  [ RunTime:0.000477s ]
+
+[ 2015-04-13T11:23:31+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004506s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '微电子与固体电子学院' ) LIMIT 1   [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.006122s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 4 )  [ RunTime:0.000610s ]
+
+[ 2015-04-13T11:23:41+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004068s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.001191s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020427s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001762s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001739s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007022s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002048s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002234s ]
+
+[ 2015-04-13T11:23:43+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004497s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.006127s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.001267s ]
+
+[ 2015-04-13T11:23:46+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003996s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '田虎' ) AND ( `school_id` = 1 )  [ RunTime:0.001613s ]
+
+[ 2015-04-13T11:23:48+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003688s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '微电子与固体电子学院' ) LIMIT 1   [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003837s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 4 )  [ RunTime:0.000612s ]
+
+[ 2015-04-13T11:29:12+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004401s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020640s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002310s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007430s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2015-04-13T11:29:13+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003836s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '通信与信息工程学院' ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005319s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 2 )  [ RunTime:0.001141s ]
+
+[ 2015-04-13T11:29:15+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003819s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = ' 王海军' ) AND ( `school_id` = 2 )  [ RunTime:0.000448s ]
+
+[ 2015-04-13T11:29:16+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003696s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003897s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.000539s ]
+
+[ 2015-04-13T11:29:17+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003901s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '杨晓玲' ) AND ( `school_id` = 3 )  [ RunTime:0.000595s ]
+
+[ 2015-04-13T11:29:19+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004166s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '物理电子学院' ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004721s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.001151s ]
+
+[ 2015-04-13T11:29:21+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001480s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004178s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '陈重阳' ) AND ( `school_id` = 5 )  [ RunTime:0.000446s ]
+
+[ 2015-04-13T11:29:22+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003801s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004400s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.000462s ]
+
+[ 2015-04-13T11:29:23+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004452s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '物理电子学院' ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005875s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.000573s ]
+
+[ 2015-04-13T11:29:24+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004284s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '计算机科学与工程学院' ) LIMIT 1   [ RunTime:0.002101s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004636s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 7 )  [ RunTime:0.000513s ]
+
+[ 2015-04-13T11:29:26+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005312s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '李明进' ) AND ( `school_id` = 7 )  [ RunTime:0.000643s ]
+
+[ 2015-04-13T11:30:17+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002958s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003982s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026590s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002386s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002747s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010160s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002115s ]
+
+[ 2015-04-13T11:30:23+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004437s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021530s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001552s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001288s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007585s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002320s ]
+
+[ 2015-04-13T11:30:48+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002925s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003791s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022943s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002605s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002074s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002115s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009639s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2015-04-13T11:31:20+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003414s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003731s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024394s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002314s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002139s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009816s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2015-04-13T11:31:22+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004664s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004403s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.000657s ]
+
+[ 2015-04-13T11:31:24+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001545s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004863s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '杨晓玲' ) AND ( `school_id` = 3 )  [ RunTime:0.000523s ]
+
+[ 2015-04-13T11:31:25+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001598s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.006027s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004113s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.000709s ]
+
+[ 2015-04-13T11:31:29+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004977s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '计算机科学与工程学院' ) LIMIT 1   [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004623s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 7 )  [ RunTime:0.000870s ]
+
+[ 2015-04-13T11:31:30+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.006415s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '李明进' ) AND ( `school_id` = 7 )  [ RunTime:0.000601s ]
+
+[ 2015-04-13T11:31:49+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003094s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005047s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '微电子与固体电子学院' ) LIMIT 1   [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004468s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 4 )  [ RunTime:0.000501s ]
+
+[ 2015-04-13T11:31:51+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005208s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '文译' ) AND ( `school_id` = 4 )  [ RunTime:0.001431s ]
+
+[ 2015-04-13T11:31:53+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003631s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002320s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001432s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001924s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002069s ]
+
+[ 2015-04-13T11:31:55+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001636s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005866s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '物理电子学院' ) LIMIT 1   [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005038s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.000879s ]
+
+[ 2015-04-13T11:31:56+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001563s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004361s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '陈重阳' ) AND ( `school_id` = 5 )  [ RunTime:0.000508s ]
+
+[ 2015-04-13T11:31:57+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003658s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003694s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '光电信息学院' ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005045s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 6 )  [ RunTime:0.000985s ]
+
+[ 2015-04-13T11:32:37+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003707s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003642s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.000400s ]
+
+[ 2015-04-13T11:32:44+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001525s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003859s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004049s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.000827s ]
+
+[ 2015-04-13T11:32:47+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003645s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025088s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001720s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001558s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007053s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002306s ]
+
+[ 2015-04-13T11:32:49+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002864s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003832s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003876s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.001073s ]
+
+[ 2015-04-13T11:33:01+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002759s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004211s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003750s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003606s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000407s ]
+
+[ 2015-04-13T11:33:05+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002671s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004329s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003652s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003613s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000389s ]
+
+[ 2015-04-13T11:33:11+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005541s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005826s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006393s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003930s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004314s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000625s ]
+
+[ 2015-04-13T11:33:16+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003858s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004402s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004018s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000964s ]
+
+[ 2015-04-13T11:33:19+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002912s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003569s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003625s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000403s ]
+
+[ 2015-04-13T11:33:21+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003255s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004474s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004180s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005029s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000757s ]
+
+[ 2015-04-13T11:33:24+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002816s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003156s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003662s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003650s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000399s ]
+
+[ 2015-04-13T11:33:27+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003835s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004141s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000992s ]
+
+[ 2015-04-13T11:33:37+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002853s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003704s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003737s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000553s ]
+
+[ 2015-04-13T11:33:41+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003677s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003617s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000569s ]
+
+[ 2015-04-13T11:37:38+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002492s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002947s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003794s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003753s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000605s ]
+
+[ 2015-04-13T11:37:41+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004636s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003043s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004982s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005614s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.001214s ]
+
+[ 2015-04-13T11:37:45+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003495s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005428s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004533s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.000773s ]
+
+[ 2015-04-13T11:37:48+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003268s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004350s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '外国语学院' ) LIMIT 1   [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004429s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 14 )  [ RunTime:0.000618s ]
+
+[ 2015-04-13T11:37:54+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004056s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003798s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '马克思主义教育学院' ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004905s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 22 )  [ RunTime:0.001071s ]
+
+[ 2015-04-13T11:38:02+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002113s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002819s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003961s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '马克思主义教育学院' ) LIMIT 1   [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004224s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 22 )  [ RunTime:0.000630s ]
+
+[ 2015-04-13T11:38:06+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003422s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004395s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '刘力银' ) AND ( `school_id` = 22 )  [ RunTime:0.000511s ]
+
+[ 2015-04-13T11:38:09+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003067s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003787s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.010096s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '刘力银' ) AND ( `school_id` = 22 )  [ RunTime:0.001496s ]
+
+[ 2015-04-13T11:38:10+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002447s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003549s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004929s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '格拉斯哥学院' ) LIMIT 1   [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004664s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 18 )  [ RunTime:0.000555s ]
+
+[ 2015-04-13T11:38:12+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002075s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002965s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005925s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '史小婷' ) AND ( `school_id` = 18 )  [ RunTime:0.001211s ]
+
+[ 2015-04-13T11:38:14+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002602s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003300s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004935s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '史小婷' ) AND ( `school_id` = 18 )  [ RunTime:0.001036s ]
+
+[ 2015-04-13T11:38:17+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002833s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003819s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005218s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '马克思主义教育学院' ) LIMIT 1   [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004156s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 22 )  [ RunTime:0.000540s ]
+
+[ 2015-04-13T11:46:52+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002947s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004035s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025674s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002357s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002174s ]
+
+[ 2015-04-13T11:46:59+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003929s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000899s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021233s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001523s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001307s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006839s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002077s ]
+
+[ 2015-04-13T11:47:26+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003191s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.007579s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.002100s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032136s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002613s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012349s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003747s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003954s ]
+
+[ 2015-04-13T11:47:28+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003218s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004602s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '物理电子学院' ) LIMIT 1   [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004204s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.000581s ]
+
+[ 2015-04-13T11:48:42+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003845s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021548s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001566s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001911s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007875s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002481s ]
+
+[ 2015-04-13T11:50:12+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003844s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023276s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001830s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002024s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001504s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007770s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002388s ]
+
+[ 2015-04-13T15:30:01+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004500s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.001019s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022161s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001647s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002369s ]
+
+[ 2015-04-13T15:30:03+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004208s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003778s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005575s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.007008s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.001016s ]
+
+[ 2015-04-13T15:30:06+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001793s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004170s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '杨晓玲' ) AND ( `school_id` = 3 )  [ RunTime:0.000759s ]
+
+[ 2015-04-13T15:31:15+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005157s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005617s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000587s ]
+
+[ 2015-04-13T15:31:17+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001563s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004059s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '田虎' ) AND ( `school_id` = 1 )  [ RunTime:0.000595s ]
+
+[ 2015-04-13T15:31:18+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/view_post
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001635s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003939s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004459s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '田虎' ) AND ( `school_id` = 1 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: UPDATE `star_joiner` SET `time`=time+1 WHERE ( `username` = '田虎' ) AND ( `school_id` = 1 ) [ RunTime:0.108152s ]
+SQL: UPDATE `star_joiner` SET `login_time`=1428910278,`other`=1 WHERE ( `username` = '田虎' ) AND ( `school_id` = 1 ) [ RunTime:0.007257s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '田虎' ) AND ( `school_id` = 1 ) LIMIT 1   [ RunTime:0.000462s ]
+
+[ 2015-04-13T15:31:21+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001735s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005387s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.006182s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.003154s ]
+
+[ 2015-04-13T15:32:58+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005800s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '资源与环境学院' ) LIMIT 1   [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004716s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 17 )  [ RunTime:0.000943s ]
+
+[ 2015-04-13T15:33:22+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002513s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004309s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '古鹏' ) AND ( `school_id` = 17 )  [ RunTime:0.000471s ]
+
+[ 2015-04-13T15:33:26+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001703s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005615s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '航空航天学院' ) LIMIT 1   [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004672s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 16 )  [ RunTime:0.000911s ]
+
+[ 2015-04-13T15:33:48+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004756s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '资源与环境学院' ) LIMIT 1   [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005292s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 17 )  [ RunTime:0.000634s ]
+
+[ 2015-04-13T15:33:51+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005004s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '通信与信息工程学院' ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004910s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 2 )  [ RunTime:0.000718s ]
+
+[ 2015-04-13T15:33:53+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005223s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = ' 王海军' ) AND ( `school_id` = 2 )  [ RunTime:0.001674s ]
+
+[ 2015-04-13T15:33:54+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004238s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004759s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.001106s ]
+
+[ 2015-04-13T15:33:56+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003948s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '田虎' ) AND ( `school_id` = 1 )  [ RunTime:0.000711s ]
+
+[ 2015-04-13T15:33:57+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001553s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004118s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003858s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.000421s ]
+
+[ 2015-04-13T15:33:59+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.012642s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '杨晓玲' ) AND ( `school_id` = 3 )  [ RunTime:0.000944s ]
+
+[ 2015-04-13T15:39:43+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003828s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020988s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001782s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001695s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001339s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006903s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2015-04-13T15:40:01+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003049s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003778s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '光电信息学院' ) LIMIT 1   [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004344s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 6 )  [ RunTime:0.000784s ]
+
+[ 2015-04-13T15:40:03+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005846s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '物理电子学院' ) LIMIT 1   [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004045s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.001020s ]
+
+[ 2015-04-13T15:40:04+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002693s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005779s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '光电信息学院' ) LIMIT 1   [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003905s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 6 )  [ RunTime:0.000433s ]
+
+[ 2015-04-13T15:40:06+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002884s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.006224s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '程从琳' ) AND ( `school_id` = 6 )  [ RunTime:0.001262s ]
+
+[ 2015-04-13T15:53:18+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004046s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023334s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002489s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002328s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003507s ]
+
+[ 2015-04-13T15:53:25+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003833s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021522s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001345s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002056s ]
+
+[ 2015-04-13T15:53:30+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003109s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003806s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '通信与信息工程学院' ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004639s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 2 )  [ RunTime:0.000697s ]
+
+[ 2015-04-13T15:53:32+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004052s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = ' 王海军' ) AND ( `school_id` = 2 )  [ RunTime:0.000614s ]
+
+[ 2015-04-13T15:53:48+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002888s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003644s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025246s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002377s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001967s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009674s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003006s ]
+
+[ 2015-04-13T15:53:56+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003614s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003782s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '电子工程学院' ) LIMIT 1   [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003959s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 3 )  [ RunTime:0.000712s ]
+
+[ 2015-04-13T15:53:58+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004905s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.001299s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021325s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001577s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001416s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006601s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002295s ]
+
+[ 2015-04-13T15:54:05+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004063s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003948s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000476s ]
+
+[ 2015-04-13T15:54:11+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004064s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000961s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020391s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001637s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001277s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006495s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002049s ]
+
+[ 2015-04-13T15:55:36+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005751s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.001151s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028469s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002939s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002346s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001897s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010371s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003261s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003457s ]
+
+[ 2015-04-13T15:55:37+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001477s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004040s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '英才实验学院' ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.005415s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 1 )  [ RunTime:0.000847s ]
+
+[ 2015-04-13T15:55:39+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004412s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '田虎' ) AND ( `school_id` = 1 )  [ RunTime:0.000466s ]
+
+[ 2015-04-13T15:55:42+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003710s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.001337s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016855s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000665s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000860s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003345s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001262s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2015-04-13T15:55:44+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003814s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004061s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.005401s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '光电信息学院' ) LIMIT 1   [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004121s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 6 )  [ RunTime:0.000583s ]
+
+[ 2015-04-13T15:55:47+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003858s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000503s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016327s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000934s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000950s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004321s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001197s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2015-04-13T15:55:49+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002370s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.004710s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '物理电子学院' ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004705s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 5 )  [ RunTime:0.000438s ]
+
+[ 2015-04-13T15:55:53+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/name
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001542s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.004069s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `username` = '陈重阳' ) AND ( `school_id` = 5 )  [ RunTime:0.000555s ]
+
+[ 2015-04-13T15:55:55+08:00 ] 127.0.0.1 /meeting/index.php/Index/Index/match
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003627s ]
+SQL: SELECT * FROM `star_school` WHERE ( `school` = '微电子与固体电子学院' ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `star_joiner` [ RunTime:0.003686s ]
+SQL: SELECT * FROM `star_joiner` WHERE ( `school_id` = 4 )  [ RunTime:0.000417s ]
+
+[ 2015-04-13T15:57:35+08:00 ] 127.0.0.1 /meeting/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `star_school` [ RunTime:0.003749s ]
+SQL: SELECT * FROM `star_school` ORDER BY id  [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021406s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002637s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001727s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007943s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002041s ]
+
